@@ -13,4 +13,4 @@ install:
   - pip install ".[test]" # install package + test dependencies
 script: pytest tests/ --cov=mypkg/
 after_success:
-  - codecov # submit coverage
+  - codecov --file coverage/lcov.info --disable search # submit coverage
