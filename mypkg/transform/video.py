@@ -1,0 +1,2 @@
+def cut():
+    return "cut"

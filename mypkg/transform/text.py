@@ -1,0 +1,2 @@
+def strip():
+    return "strip"
